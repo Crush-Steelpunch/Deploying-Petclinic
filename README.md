@@ -7,7 +7,7 @@ Petclinic requires two services to be deployed, an javascript frontend in angula
 
 The original design of the application is to run on a workstation machine and be accessed on localhost
 
-In order to run it in a cloud environment you will need to override the rest api environment varialbles
+In order to run it in a cloud environment you will need to override the rest api environment variables
 
 - `REST_API_URL=http://server:port/apipath`
 - `production=true/false`
