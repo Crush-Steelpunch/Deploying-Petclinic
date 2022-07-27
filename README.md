@@ -7,7 +7,7 @@ Petclinic requires two services to be deployed, an javascript frontend in angula
 
 The original design of the application is to run on a workstation machine and be accessed on localhost
 
-In order to run it in a cloud environment you will need to override the rest api environment variables for the angular service.
+In order to run it in a cloud environment you will need alter the rest api environment variables for the angular service.
 
 The environment variables are retrieved in the angular code in `spring-petclinic-angular/src/environments/{environment.ts, environment.prod.ts}`
 
