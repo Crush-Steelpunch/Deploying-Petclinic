@@ -9,8 +9,8 @@ The original design of the application is to run on a workstation machine and be
 
 In order to run it in a cloud environment you will need to override the rest api environment varialbles
 
-`REST_API_URL=http://server:port/apipath`
-`production=true/false`
+- `REST_API_URL=http://server:port/apipath`
+- `production=true/false`
 
 It would be preferred to have the frontend accessed through the same server url so you don't run in to cross site scripting issues
 
