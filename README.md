@@ -22,6 +22,8 @@ For this you should think about using nginx to proxy the url `http://server/` to
 
 ## Rebuilding API image
 
+As noted in the petclinic api [docs](https://github.com/spring-petclinic/spring-petclinic-rest#publishing-a-docker-image)
+
 The rest api uses the Google Jib plugin for maven to create the docker image. 
 
 How to create an image that is pushed to a repository, tarball, or one built for a local Docker daemon is [here](https://github.com/GoogleContainerTools/jib/tree/master/jib-maven-plugin#build-your-image)
