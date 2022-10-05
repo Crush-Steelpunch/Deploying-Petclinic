@@ -20,7 +20,7 @@ Note: The frontend is written in javascript. So the actual code runs in the user
 
 As the backend needs to be accessed from the internet it would be preferred to have the frontend accessed through the same server url so you don't run in to cross site scripting issues.
 
-For this you should think about using nginx to proxy the url `http://server/` to the angular code and `http://server/petclinic/` to the api service.
+For this you should think about using nginx to proxy the url `http://server/` to the angular code and `http://server/petclinic/api` to the api service.
 
 ## Rebuilding Backend API image
 
