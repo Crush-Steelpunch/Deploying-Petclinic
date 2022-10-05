@@ -14,13 +14,15 @@ The environment variables are retrieved in the angular code in `spring-petclinic
 - `REST_API_URL=http://server:port/apipath`
 - `production=true/false`
 
+Note: The frontend is written in javascript. So the actual code runs in the users browser, not on the cloud platform. That means the backend API path should be an external, globally routeable address.
+
 ## Cloud Deployment
 
-It would be preferred to have the frontend accessed through the same server url so you don't run in to cross site scripting issues
+As the backend needs to be accessed from the internet it would be preferred to have the frontend accessed through the same server url so you don't run in to cross site scripting issues.
 
 For this you should think about using nginx to proxy the url `http://server/` to the angular code and `http://server/petclinic/api` to the api service.
 
-## Rebuilding API image
+## Rebuilding Backend API image
 
 As noted in the petclinic api [docs](https://github.com/spring-petclinic/spring-petclinic-rest#publishing-a-docker-image)
 
